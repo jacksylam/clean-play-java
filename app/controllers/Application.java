@@ -14,7 +14,7 @@ public class Application extends Controller {
    * @return Returns template.
    */
   public static Result index() {
-    return ok(index.render("Your new application is ready."));
+      return ok(index.render("Your new application is ready."));
   }
 
 }
